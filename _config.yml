@@ -24,7 +24,7 @@ url: "" # the base hostname & protocol for your site
 baseurl:
 url: "shersanginov.com"
 
-
+#useful link:http://downtothewire.io/2015/08/15/configuring-jekyll-for-user-and-project-github-pages/
 
 # Build settings
 markdown: kramdown
