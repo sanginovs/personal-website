@@ -31,7 +31,8 @@ markdown: kramdown
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
-
+permalink:           /blog/:year/:month/:day/:title/
+relative_permalinks: true
 
 # Category descriptions (for archive pages)
 descriptions:
