@@ -3,6 +3,7 @@ layout: post
 title: "Internship: Day 1"
 author: "Sher Sanginov"
 ---
+![My Workspace](/assets/img/aaa.jpg){:class="img-responsive"}
 
 Interning for computer science department of Berea College this summer is going to be full of learning experience. This is what I had expected from it and looks like I happened to be right about it according to my first day interning for Scott Heggen, Berea College computer science professor.
 
@@ -17,4 +18,4 @@ Today was more like a brief introduction day to an entire internship cycle. Scot
 6. Berea College Labor Program (BCLP)- the web application system which allows Berea College staff and faculty members to submit labor status forms when hiring a student for a job position.
 
 
-After being introduced to the system, we quickly dived into a code and picked on a issue to work on. Me and Jose first learnt the architecture of the web application, and by the end of the day we were able to fix the issue. In BCSR system, the issue was that the last modified date of courses were on a military time which we turned into the 12 hour time. All of this reminds me more of an open-source ideology where the programmer learns by diving into the system and working on a specific issue. This could be challenging but at the same time, very rewarding. So far, I'm very excited and I'm ready to learn more and more.   
+After being introduced to the systems, we quickly dived into a code and picked on a issue to work on. Me and Jose first learnt the architecture of the web application, and by the end of the day we were able to fix the issue. In BCSR system, the issue was that the last modified date of courses were on a military time which we turned into the 12 hour time. All of this reminds me more of an open-source ideology where the programmer learns by diving into the system and working on a specific issue. This could be challenging but at the same time, very rewarding. So far, I'm very excited and I'm ready to learn more and more.   
