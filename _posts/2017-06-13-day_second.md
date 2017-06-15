@@ -5,7 +5,7 @@ author: "Sher Sanginov"
 ---
 
 
-<img class="img-responsive" src="/assets/img/intern2.jpg" alt="Drawing" style="width: 400px; height: 500px; display: block; margin-left: auto; margin-right: auto; ">
+<img class="img-responsive" src="/assets/img/intern2.jpg" alt="Drawing" style="width: 450px; height: 400px; display: block; float:right; ">
 
 So far, each team has to pick an issue(bug) that is available in one of the existing systems and fix it. One of the good things about this technique is you will learn on the go. It's a very challenging learning experience at the beginning but you get used to it. The web application systems we've been working on use different Python frameworks and tools so the best way to learn them is to tackle some bugs/issues.
 
@@ -14,6 +14,12 @@ Today, we tackled another bug which we found on the Berea College Syllabus Repos
 {{if courses==None}}
 <h1>You have no courses</h1>
 ```
-As a result, the issue was solved.
-
-It was a good learning experience. By tackling one issue, we were able to learn about database concepts, different libraries like Peewee and Jinja, a powerful template engine in Python.
+```
+#Back-end
+if my_courses.exists(): #checking whether query contains courses
+  peeweeObj = my_courses.execute()
+  return peeweeObj
+else:
+    return None
+```
+As the result, the issue was solved. It was a good learning experience. By tackling one issue, we were able to learn about database concepts, different libraries like Peewee and Jinja, a powerful template engine in Python. So far, the internship has not been very challenging to me. I'm still learning the systems and their design. The first time I looked at them was so overwhelming because there were so many files in each system. Now, I feel more comfortable diving into system source code because I feel I'm more familiar with a system design and architecture.
