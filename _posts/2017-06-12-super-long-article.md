@@ -4,7 +4,7 @@ title: "Internship: Day 1"
 author: "Sher Sanginov"
 ---
 
-<img class="img-responsive" src="/assets/img/aaa.jpg" alt="Drawing" style="width: 200px;"/>
+<img class="img-responsive" src="/assets/img/aaa.jpg" alt="Drawing" style="width: 400px; height: 400px; align: center;"/>
 
 
 Interning for computer science department of Berea College this summer is going to be full of learning experience. This is what I had expected from it and looks like I happened to be right about it according to my first day interning for Scott Heggen, Berea College computer science professor.
