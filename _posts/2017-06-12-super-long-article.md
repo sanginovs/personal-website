@@ -5,7 +5,7 @@ author: "Sher Sanginov"
 ---
 
 
-<img class="img-responsive" src="/assets/img/aaa.jpg" alt="Drawing" style="width: 1200px; height: 400px; display: block; margin-left: auto; margin-right: auto; ">
+<img class="img-responsive" src="/assets/img/aaa.jpg" alt="Drawing" style="width: 1200px; height: 400px; display: block; margin-left: -20px; margin-right: auto; ">
 
 
 Interning for computer science department of Berea College this summer is going to be full of learning experience. This is what I had expected from it and looks like I happened to be right about it according to my first day interning for Scott Heggen, Berea College computer science professor.
