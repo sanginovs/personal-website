@@ -31,4 +31,9 @@ if my_courses.exists(): #checking whether query contains courses
 else:
     return None
 ```
-As the result, the issue was solved. It was a good learning experience. By tackling one issue, we were able to learn about database concepts, different libraries like Peewee and Jinja, a powerful templating engine in Python. So far, the internship has not been very challenging to me. I'm still learning the systems and their design. The first time I looked at them was so overwhelming because there were so many files in each system. Now, I feel more comfortable diving into system source code because I feel I'm more familiar with a system design and architecture.
+As the result, the issue was solved. It was a good learning experience. By tackling one issue, we were able to learn about database concepts, different libraries like Peewee and Jinja, a powerful templating engine in Python.
+
+So, what else have I learnt today?
+One of the interesting things I learnt about system design was that each system has a file called "**config**".They are used by developers to change settings without recompiling applications. For example, they can be used to declare global variables that are used throughout the system. A **config** file is very beneficial to the system. For example, while developing the system, one could set debugging option to **True**. However, if the system is live in the production, one sets the debug option to **False**.
+
+So far, the internship has not been very challenging to me. I'm still learning the systems and their design. The first time I looked at them was so overwhelming because there were so many files in each system. Now, I feel more comfortable diving into system source code because I feel I'm more familiar with a system design and architecture.
