@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Internship: Day 1"
+title: "Internship Day 1: Introduction"
 author: "Sher Sanginov"
 ---
 

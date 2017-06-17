@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Internship: Day 2"
+title: "Internship Day 2: Facing the challenges "
 author: "Sher Sanginov"
 ---
 
