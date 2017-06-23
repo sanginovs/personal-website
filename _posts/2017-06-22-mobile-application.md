@@ -13,4 +13,4 @@ This week I had a chance to meet with several employees of the **Public Safety D
 
  I thought it'd be better to include some other features from other departments in the proposed mobile app like dining service hours, gym schedule etc. which could get Berea college students download the app. However, we needed good ideas. I thought if our customers are college students, why not just ask them. Thus, I went on Facebook posted a poll in order to see what customers want:
 
- <img class="img-responsive" src="/assets/img/poll.jpg" alt="Drawing" style="width: 450px; height: 400px; display: block; float:left; ">
+ <img class="img-responsive" src="/assets/img/poll.png" alt="Drawing" style="width: 450px; height: 400px; display: block; float:left; ">
