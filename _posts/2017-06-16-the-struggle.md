@@ -7,37 +7,10 @@ author: "Sher Sanginov"
 
 <img class="img-responsive" src="/assets/img/intern4.jpg" alt="Drawing" style="width: 450px; height: 400px; display: block; float:left; ">
 
-One of the issues I face very often is a **path issue**. So, what is a **PATH** in computer systems at the first place? Path is an environment variable on Operating systems like Windows and Linux which specify a set of directories where executable programs are located. So, in general, each file that is stored in some folder on your PC, has its own path which you could use to get to it. For example, a new file which you create on Documents folder in Windows could have this path: **C:/Users/administrator/Documents/new_file**.
+The last two days were one of the days I felt not good about after working on a single problem all day long and not being able to fix it. I'm a type of the programmer who aims for productivity. If I spend so much time on a single problem without being able to solve it, I feel really bad about myself wasting so much time. I would not call it the total waste of my time since I learnt about **Jquery Datatable's Plugin** while struggling to use it in our system.  
 
-The issue I tackled today had something to do with an absolute and relative paths. At first, I wasn't sure what those terms meant. After doing some research, I was able to understand those terms. The absolute path is a full path that points to the same location in a file system while relative path starts from some working directory that way avoiding to provide the full path. In our BCSR system, when faculty members upload their syllabus, the system needs to take a pre-defined relative path for user uploads which is **static/uploads** and create an absolute path in order to store the syllabus in that location.
+I briefly describe the problem which I was trying to solve. So, in our web application, there is a section that has a table of courses with a course instructor's first and last name. The problem is that one of the Berea College professors wanted everything to be sorted by an instructor's last name via a click while another professor wants them to be sorted by a course name. So, in order to solve the problem I found **Datatables Jquery plugin** and wanted to use it in the system. I got the graphical part working while the actual sorting function did not work after I clicked it. One thing I like about programming is debugging my own program. Debugging is the routine  process of locating and removing a bug that is handled by a tool called the debugger. I feel like I've always been good at debugging. I remember taking my first **"Introduction to Programming"** class and often used to get confused at how things work in programming. Later in that class, we were taught about **debugging our code** in order to figure out where exactly the program is malfunctioning. Since then, I've always been debugging my code in case I get confused about something or find a bug.
 
-In order to solve this issue, I had to learn about **sys module** to predefine the path from the root directory. E.g. **sys.path.insert(0,‘/home/users/sher/Documents/bcsr/’)**. Of course, this depends on the environment you are running the system in. Then, I needed to create a function that takes **a relative path** as an input and returns **an absolute path**. Here's the function:
-```
-#Back-end
-def getAbsolutePath(self, relativePath, filename=None, makeDirs=False):
-   '''Creates the AbsolutePath based off of the relative path.
-   Also creates the directories in path if they are not found.
-   @param {string} relaitivePath - a string of directories found in config.yaml
-   @param {string} filename - the name of the file that should be in that directory
-   @return {string} filepath -returns the absolute path of the directory'''
-   '''TODO: ADD @PARAm for make dirs'''
-   filepath = os.path.join(sys.path[0], relativePath) #adding relative path and absolute
-   if makeDirs == True:
-       try:
-           os.makedirs(filepath)
-       except:
-           pass
-   if filename != None:
-       filepath = os.path.join(filepath, filename)
-   return filepath
-```
-Finally, the problem was solved.
+I decided to use my debugging skills and tools like **DevTools** to debug my code. After spending hours to find the bug, I got the worst debugging experience ever in my life. I was frustrated but at the same time did not want to give up. In my entire programming journey, I don't remember being unable to find a certain bug in my program and not being able to fix it.
 
-What did I learn by working in this issue?
-<br>First of all, I learn about **PATH** and **file hierarchy** in OS systems like Linux. Secondly, I was able to learn about **"sys"** and **"os"** modules and use them in my implementation.
-
-Was it challenging to me?<br>
-Not really. Even though I got stuck a bit, I was able to figure my way out by doing some extra research.
-
-How do I value my effort for the first three day of the internship?<br>
-I am working hard and learning a lot of new things. While in the process of getting familiar with our systems, I'm also working on building my own web application using the same design in order to get a better grasp of the whole system design and implementation.
+Finally, after talking to one of my internship instructors, we were able to figure out why the **Datatables Plugin** wasn't working in our system. The problem was with the system itself. While using the Python templating library **Jinja** in all of the **Html** files, the original programmer of the system designed the **Jinja** and **Html** integration poorly. One of the things I feared the most while being on this computer science journey is working with someone else's code. These systems were built by previous software developers who left some functionality or design flaws in the system which they've built. Working with someone else's code gets frustrating at the beginning until you get the hang of what each line of code means. I feel like I'd be more comfortable solving problems and fixing issues in my own web application since I'd know every single line of code I wrote rather than working on an application built by someone else.
