@@ -5,11 +5,11 @@ author: "Sher Sanginov"
 ---
 
 
-<img class="img-responsive" src="/assets/img/intern3.jpg" alt="Drawing" style="width: 450px; height: 400px; display: block; float:left; ">
+<img class="img-responsive" src="/assets/img/intern5.png" alt="Drawing" style="width: 450px; height: 400px; display: block; float:left; ">
 
-One of the issues I face very often is a **path issue**. So, what is a **PATH** in computer systems at the first place? Path is an environment variable on Operating systems like Windows and Linux which specify a set of directories where executable programs are located. So, in general, each file that is stored in some folder on your PC, has its own path which you could use to get to it. For example, a new file which you create on Documents folder in Windows could have this path: **C:/Users/administrator/Documents/new_file**.
+&nbsp;&nbsp;&nbsp;The second week of my internship started and I feel confident after being in a struggle mode throughout my first week interning. One thing I learnt from last week is to ask your peers for things that don't make sense to you when it comes to fixing bugs. I feel like I heavily rely on websites like **"Stackoverflow"**(technical question & answer website) when I'm having technical problems with something. Sometimes, it does make sense to ask other interns for help when facing a problem which I rarely did in my first week. This was one of my weaknesses. I realized that I should be asking other interns for help when I get stuck on something.  
 
-The issue I tackled today had something to do with an absolute and relative paths. At first, I wasn't sure what those terms meant. After doing some research, I was able to understand those terms. The absolute path is a full path that points to the same location in a file system while relative path starts from some working directory that way avoiding to provide the full path. In our BCSR system, when faculty members upload their syllabus, the system needs to take a pre-defined relative path for user uploads which is **static/uploads** and create an absolute path in order to store the syllabus in that location.
+&nbsp;&nbsp;&nbsp;This week we are focusing on learning different architectural design patterns like Model-View-Controller. Being able to design a web application system is not an easy task and requires some planning especially when your application becomes popular all of a sudden.  
 
 In order to solve this issue, I had to learn about **sys module** to predefine the path from the root directory. E.g. **sys.path.insert(0,‘/home/users/sher/Documents/bcsr/’)**. Of course, this depends on the environment you are running the system in. Then, I needed to create a function that takes **a relative path** as an input and returns **an absolute path**. Here's the function:
 ```
