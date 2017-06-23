@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Internship Week 2: Productivity - Part 2"
+title: "Internship Week 2: Mobile Application"
 author: "Sher Sanginov"
 ---
 
 
-<img class="img-responsive" src="/assets/img/intern3.jpg" alt="Drawing" style="width: 450px; height: 400px; display: block; float:left; ">
+<img class="img-responsive" src="/assets/img/intern6.jpg" alt="Drawing" style="width: 450px; height: 400px; display: block; float:left; ">
 
 One of the issues I face very often is a **path issue**. So, what is a **PATH** in computer systems at the first place? Path is an environment variable on Operating systems like Windows and Linux which specify a set of directories where executable programs are located. So, in general, each file that is stored in some folder on your PC, has its own path which you could use to get to it. For example, a new file which you create on Documents folder in Windows could have this path: **C:/Users/administrator/Documents/new_file**.
 
