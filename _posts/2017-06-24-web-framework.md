@@ -14,4 +14,4 @@ As a result, I was asked to work on a **BART** system that is currently not on p
 
 **BART** is built with **Ruby on Rails**, the framework which I haven't worked with yet. Moreover, it uses **Ajax**, **Javascript**, **Html**, **CSS**, etc. Learning new web frameworks is fun and I love it. I'm very comfortable working with Python web frameworks: **Flask** and **Django**. However, I never looked at Ruby web framework **Rails**. After I get some hands-on experience with Rails, I'd be able to compare it with Python web frameworks and see the design differences between these three web frameworks. I feel like it's a real challenge to me since I'm being exposed to new web frameworks which I've never worked with in my entire life.
 
-<img class="img-responsive" src="/assets/img/sign.gif" alt="Drawing" style=" display: block; float:center; width: 200px; height; 200px;">
+<img class="img-responsive" src="/assets/img/sign.gif" alt="Drawing" style="  float:center; width: 200px; height; 200px;">
