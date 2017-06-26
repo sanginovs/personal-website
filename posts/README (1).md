@@ -30,18 +30,20 @@ Previously, the Labor Program has been generating these reports using a PHP scri
 ## Step 1: Getting Started on Cloud9:
 
 ##Create a Workspace in Cloud9
-a) you will want to make sure you choose to clone your repo from bitbucket. You do this by adding your git URL. Use https one.<br>
-Paste your BART repo url inside **Clone from Git or Mercurial URL** query. Note: delete **git clone** from the url
-This gives you an empty workspace. It doesn't actually clone the whole repo. 
-But, it prevents Cloud9 from creating default **Ruby on Rails** application
+
+a) you will want to make sure you choose to clone your repo from bitbucket. You do this by adding your git URL. Use https one.
+Paste your BART repo url inside **'Clone from Git or Mercurial URL'** query. 
+<br>Note: delete **git clone** from the url 
+<br>This gives you an empty workspace. It doesn't actually clone the whole repo but it prevents Cloud9 from creating default **Ruby on Rails** application
 in your workspace.
 
-b) On **Choose a template** part, make sure you choose **Ruby Rails** for your workspace. Thus, **Ruby on Rails** framework will automatically be installed on your workspace.
+b) On **'Choose a template'** part, make sure you choose **'Ruby Rails'** for your workspace. Afterwards, **'Ruby on Rails'** framework will automatically be installed on your workspace.
 
 
 ##Step 2: Getting Your Development Environment Running
-Open your workspace. Make sure you're inside the **workspace** directory.
-1. Clone the BART repo in your workspace. You can do it by copying **https url** from your bitbucket BART repo, paste it in your terminal. (e.g `git clone https://shersanginov@bitbucket.org/RobHossBoss/bart.git`)
+
+Open your workspace terminal. Make sure you're inside the **workspace** directory on the terminal.
+1. Clone the BART repo in your workspace. You can do it by copying **'git clone url'** from your BART's bitbucket repo and paste it in the terminal. (e.g `git clone https://shersanginov@bitbucket.org/RobHossBoss/bart.git`)
 
 2. `cd bart/`
 
@@ -65,7 +67,6 @@ on the **CWD** and then, select **bart** folder so 'bart' becomes the root direc
 Once you do this, click on **Run** again.
 
 You should get: **Your code is running at https://tes1-shers.c9users.io.** 
-
 Click on this link. It loads a little bit and then it opens **Bart** in a new tab.
 
 If you're not developing in Cloud9, you can run 'Bart' from the terminal with the below command:
