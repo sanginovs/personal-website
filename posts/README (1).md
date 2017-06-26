@@ -29,7 +29,7 @@ Previously, the Labor Program has been generating these reports using a PHP scri
 
 ## Step 1: Getting Started on Cloud9:
 
-##Create a Workspace in Cloud9
+## Create a Workspace in Cloud9
 
 a) you will want to make sure you choose to clone your repo from bitbucket. You do this by adding your git URL. Use https one.
 Paste your BART repo url inside **'Clone from Git or Mercurial URL'** query. 
@@ -40,7 +40,7 @@ in your workspace.
 b) On **'Choose a template'** part, make sure you choose **'Ruby Rails'** for your workspace. Afterwards, **'Ruby on Rails'** framework will automatically be installed on your workspace.
 
 
-##Step 2: Getting Your Development Environment Running
+## Step 2: Getting Your Development Environment Running
 
 Open your workspace terminal. Make sure you're inside the **workspace** directory on the terminal.
 1. Clone the BART repo in your workspace. You can do it by copying **'git clone url'** from your BART's bitbucket repo and paste it in the terminal. (e.g `git clone https://shersanginov@bitbucket.org/RobHossBoss/bart.git`)
