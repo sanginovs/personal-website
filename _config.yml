@@ -13,7 +13,7 @@ keep_files:
   - ".gitignore"
 
 # Google services
-google_analytics: UA-102052648-1
+
 
 
 # Site settings
