@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Internship Week 7: Scalable Web Application "
+title: "Internship Week 7: Scalable Web Applications "
 author: "Sher Sanginov"
 ---
 
