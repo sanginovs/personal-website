@@ -5,7 +5,7 @@ author: "Sher Sanginov"
 ---
 
 
-<img class="img-responsive" src="/assets/img/intern19.jpg" alt="Drawing" style="width: 450px; height: 400px; display: block; float:left; ">
+<img class="img-responsive" src="/assets/img/intern.png" alt="Drawing" style="width: 450px; height: 400px; display: block; float:left; ">
 
 &nbsp;&nbsp;&nbsp;&nbsp;It's been 8 weeks since I started my internship, and it has been a great learning experience. In this blog, I discuss my goals which I accomplished in my internship. There were certain things I wanted to do before starting my internship. One of my goals was to build a scalable web application from scratch. However, at the beginning of my internship, I mostly worked adding features to web applications that were already built. I wanted a challenge. As a result, my internship instructor assigned me to work on building Berea College Labor & Analytics tool(BART) in Ruby on Rails. I accepted a challenge.
 
