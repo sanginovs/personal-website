@@ -4,7 +4,7 @@ title: "Internship Day 2: Facing Challenges "
 author: "Sher Sanginov"
 ---
 
-<img class="img-responsive" src="/assets/img/intern2.png" alt="Drawing" style="width: 450px; height: 400px; display: block; float:left; ">
+<img class="img-responsive" src="/assets/img/intern2.jpg" alt="Drawing" style="width: 450px; height: 400px; display: block; float:left; ">
 
 So far, each team has to pick an issue(bug) that is available in one of the existing systems and fix it. One of the good things about this technique is you will learn on the go. It's a very challenging learning experience at the beginning but you get used to it. The web application systems we've been working on use different Python frameworks and tools so the best way to learn them is to tackle some bugs/issues.
 
