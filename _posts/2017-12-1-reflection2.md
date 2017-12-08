@@ -9,7 +9,7 @@ author: "Sher Sanginov"
 
 &nbsp;&nbsp;&nbsp;&nbsp;Back to the drawing board. We had to make certain changes in our code which were not mentioned in the issue itself. We followed the same "Divide and Conquer" strategy and started working on the changes Yura requested from us. We were able to finish 4 out of 6 requested changes. However, we got stuck on the last two. One thing I realized is that communication is a key in the open source community. After you do enough research on a blockers but still not able to figure the solution, it is important that you reach our to the community. That is what we did. One of my teammates, Vincent Davis reached out to Yura, the maintainer, to clarify certain things: <br>
 
-<img class="img-responsive" src="/assets/img/ans.png" alt="Drawing" style="width: 879px; height: 668px; display: block; text-align:center; ">
+<img class="img-responsive" src="/assets/img/ans.png" alt="Drawing" style="width: 879px; height: 668px; display: block; margin: 0 auto; ">
 
 &nbsp;&nbsp;&nbsp;&nbsp;After Yura clarified certain things, we were now clear on how to fix complete the last two requested changes but we are also at the last week of our open source class. Even though we are not completely done with our pull request, I took a responsibility to complete the last two requested changes. As a result, I am planning to continue my contribution to Mozilla's Debugger open source project. This is because the front-end is built on React and I love React. Secondly, the community is very user-friendly and responsive. There are two options: one can either reach out to them using their Slack channel or just comment under the Github issue queue.
 
