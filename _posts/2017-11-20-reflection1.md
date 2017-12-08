@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Open Source|CSC426|Firefox Debugger: Our first Pull Request "
+title: "Open Source|CSC426|Firefox Debugger: First Pull Request "
 author: "Sher Sanginov"
 ---
 
